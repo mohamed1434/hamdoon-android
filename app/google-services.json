@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "487717874611",
+    "project_id": "camp-2d979",
+    "storage_bucket": "camp-2d979.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:487717874611:android:8616a2f113f196293db9c6",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "487717874611-jjlrk3okq7ksmg7dktr01685q50o738f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "351be5702da2878348181365ca3ba6376fd466db"
+          }
+        },
+        {
+          "client_id": "487717874611-2737457drfapmln0vedu5l509it8276h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcNT7oUn9DEzXuLuiSkwZwJqKfe5EdNqs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "487717874611-2737457drfapmln0vedu5l509it8276h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

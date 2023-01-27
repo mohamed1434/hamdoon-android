@@ -1,0 +1,24 @@
+@startuml
+class com.example.myapplication.User {
+- int var_id
+- String var_username
+- String var_password
++ void setID(int)
++ void setUsername(String)
++ void setPassword(String)
++ int getID()
++ String getUsername()
++ String getPassword()
+}
+class com.example.myapplication.MainActivity {
+# void onCreate(Bundle)
++ void startLogin(View)
+}
+class com.example.myapplication.UserLoginActivity {
+# void onCreate(Bundle)
+}
+
+
+androidx.appcompat.app.AppCompatActivity <|-- com.example.myapplication.MainActivity
+androidx.appcompat.app.AppCompatActivity <|-- com.example.myapplication.UserLoginActivity
+@enduml
